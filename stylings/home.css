@@ -135,8 +135,76 @@ header{
     box-shadow: 0 10px 50px #98ded9;
 }
 
+
+
+/* ********************************************Symptom************************************* */
+
+.symptom{
+    margin: 3%;
+    font-family: 'Roboto', sans-serif;
+}
+.symptom h1{
+    font-size: 50px;
+    border: 2px solid #264a97;
+    background-color: #d1defa;
+    color: #264a97;
+    display: inline-block;
+    padding:  1% 4%;
+    border-radius: 100px;
+}
+
+.symptom div{
+    margin: 3%;
+}
+.symptom div a{
+    margin: 4%;
+    text-transform: uppercase;
+    border: 2px solid #264a97;
+    background-color: #f8faff;
+    color: #264a97;
+    padding:  1% 4%;
+    border-radius: 100px;
+    transition: all 0.3s ease-in-out 0s;
+}
+.symptom div a:hover{
+    background-color: #d1defa;
+    transition: all 0.3s ease-in-out 0s;
+}
+.show{
+    display: none;
+    /* opacity: 0; */
+}
+
+.showdep,.showfear,.showanger,.showphone{
+    display: none;
+}
+
+a{
+    cursor: pointer;
+}
+
+.symp{
+    background-color: #f8faff;
+    padding: 2%;
+    text-align: left;
+    border: 2px solid #264a97;
+    border-radius: 0 0 50px 50px;
+}
+.symp h2{
+    color: #264a97;
+    font-size: 50px;
+}
+.symp ul li{
+    color: #2862dd;
+    font-weight: lighter;
+    font-size: 20px;
+    list-style: none;
+    margin: 2%;
+}
+
 /* ********************************************About Us***************************************************** */
 .aboutUs{
+    font-size: 20px;
     font-family: 'Roboto', sans-serif;
     line-height: 25px;
     font-weight: lighter;
