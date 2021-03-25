@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="stylings/styles.css">
+    <link rel="stylesheet" href="stylings/home.css">
+
+</head>
+<body>
+
+    <div class="wrapper">
+        <div class="button">
+            <span>
+                <a href=""><img src="https://img.icons8.com/officel/50/000000/whatsapp.png"/>
+                <a href=""><img src="https://img.icons8.com/color/50/000000/facebook-new.png"/></a>
+                <a href=""><img src="https://img.icons8.com/fluent/50/000000/instagram-new.png"/></a>
+                <a href=""><img src="https://img.icons8.com/color/50/000000/youtube--v1.png"/></a>
+            </span>
+        </div>
+    </div>
+    <header>
+        <img class="logo" src="images/logo.png" alt="logo.png">
+        <nav>
+            <ul class="nav-area">
+                <li><a href="index.html">home</a></li>
+                <li><a href="blog.html">Blogs</a></li>
+                <li><a href="#">Games</a></li>
+                <li><a href="#">Care</a></li>
+            </ul>
+        </nav>
+        <a href="index.html" class="btn-area">Mental Health Assessment</a>
+    </header>
+    
+    <div class="container">
+        <div  class="heading">
+            <h1 style="font-size: 80px;color: #ff7171;">Depression Test</h1>
+            <p style="color: #fd8e8e;margin: 10px;">Please note:if your select no option it will take 0</p>
+        </div>
+        <div class="border">
+            <div id="question-container" class="hide">
+                <div id="question">Select Next to Start your Test!!</div>
+                <div id="answer-buttons" class="btn-grid">
+                    <button class="btn" name="1">nearly every day</button>
+                    <button class="btn" name="2">more than half the days</button>
+                    <button class="btn" name="3">several days</button>
+                    <button class="btn" name="4">not at All</button>
+                </div>
+            </div>
+            <div class="controls">
+                <button id="start-btn" class="start-btn btn">Start</button>
+                <button id="next-button" class="next-btn hide btn">Next</button>
+                <button id="result-button" class="result-btn hide btn">Show Result</button>
+                <div id="result"></div>
+            </div>
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="javascript/test.js"></script>
+    <script src="javascript/index.js"></script>
+</body>
+</html>
