@@ -4,7 +4,7 @@
     border: 2px solid #ff7171; 
     display: inline-block;
     background-color: #fff0f0;
-    top: 38%;
+    top: 40%;
     left: 27%;
     transform: translate((-50%,-50%));
     height: 500px;
@@ -12,10 +12,6 @@
     border-radius: 50px 0 50px 0;
 }
 
-.btn-grid{
-    /* margin-top: 3%; */
-
-}
 .btn-grid button.btn{
     margin: 4% 1%;
     padding: 2% 4%;
@@ -73,3 +69,15 @@
     left: 18%;
     color: #eb3737;
 }
+
+
+.results{
+    height: 800px;
+    width: 70%;
+    border: 2px solid black;
+    position: absolute;
+    top: 1000px;
+    left: 15%;
+    border-radius: 50px 0 50px 0;
+}
+

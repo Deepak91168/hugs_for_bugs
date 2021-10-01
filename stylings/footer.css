@@ -257,8 +257,10 @@
 }
 
 footer{
-  background-color: rgb(140, 0, 255);
-  padding: 1% 10%;
+  background-color: #ff7171;
+  padding: 1% 8%;
+  color: white;
+  font-size: large;
   display: flex;
   justify-content: space-between;
   align-items: center;

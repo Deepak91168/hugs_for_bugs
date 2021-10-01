@@ -5,8 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="icon" href="images/logo.png" type="image/x-icon">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
-    <title>Home</title>
+    <title>B-Well:Home</title>
     <!-- <link rel="stylesheet" href="styles.css"> -->
     <link rel="stylesheet" href="stylings/home.css">
     <link rel="stylesheet" href="stylings/footer.css">
@@ -14,8 +15,8 @@
 <body>
     <div class="search">
         <form action="https://www.google.com/search" method="GET">
-            <input type="text" name="q">
-            <button type="submit">search</button>
+            <input type="text" name="q" style="outline: none;">
+            <button type="submit" style="outline: none;">search</button>
         </form>
     </div>
     <div class="wrapper">
@@ -29,7 +30,7 @@
         </div>
     </div>
     <header>
-        <img class="logo" src="images/logo.png" alt="logo.png">
+        <img class="logo" src="images/logo.png" alt="logo.png" width="15%" style="margin-bottom: 5%; margin-top: 1%;">
         <nav>
             <ul class="nav-area">
                 <li><a href="index.html">home</a></li>
@@ -42,9 +43,67 @@
     </header>
     <div class="top-container">
         <iframe width="1100" height="615" src="https://www.youtube.com/embed/9FbBwehUp5Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <div class="symptom">
+            <h1>---- SYMPTOMS ----</h1><br>
+            <div>
+                <a id="dep"  class="a">Depression</a>
+                <a id="fear" class="a">Fear</a>
+                <a id="anger" class="a">Anger</a>
+                <a id="phone" class="a">Phone-Addiction</a>
+            </div>
+            <div class="symp depression show">
+               <h2>Symptoms of <span class="h2">Depression</span></h2>
+               <ul id="showdep" class="showdep">
+                   <li>1. Depressed or irritable mood</li>
+                   <li>2. Sleep problems (i.e., sleeping too much or too little; sleeping mainly during the day)</li>
+                   <li>3. Change in interests (i.e., not being interested in what you used to enjoy) or low motivation</li>
+                   <li>4. Excessive guilt or unrealistically low self-image</li>
+                   <li>5. Significantly low energy and/or change in self-care (i.e., not showering anymore)</li>
+                   <li>6. Significantly worse concentration (i.e., sharp decline in grades or performance)</li>
+                   <li>7. Changes in appetite (i.e., eating too much or too little)</li>
+                   <li>8. Agitation or severe anxiety/panic attacks</li>
+                   <li>9. Suicidal thoughts, plans or behaviors — including self-harm (i.e., intentionally cutting or burning yourself)</li>
+               </ul>
+                <ul id="showfear" class="showfear">
+                    <li>1. Chest Pain.</li>
+                    <li>2. Chills</li>
+                    <li>3. Dry Mouth</li>
+                    <li>4. Nausea</li>
+                    <li>5. Rapid HeartBeat</li>
+                    <li>6. Shortness of breath</li>
+                    <li>7. Sweating</li>
+                    <li>8. Trembling</li>
+                    <li>9. Upset Stomach</li>
+                </ul>
+                <ul id="showanger" class="showanger">
+                    <li>1. clenching your jaws or grinding your teeth.</li>
+                    <li>2. increased and rapid heart rate</li>
+                    <li>3. sweating, especially your palms</li>
+                    <li>4. feeling hot in the neck/face</li>
+                    <li>5. shaking or trembling</li>
+                    <li>6. like you want to get away from the situation</li>
+                    <li>7. like striking out verbally or physically</li>
+                    <li>8. losing your sense of humor</li>
+                    <li>9. beginning to yell, scream, or cry</li>
+                    <li>10. cupping your fist with your other hand</li>
+                    <li>11.getting sarcastic</li>
+                </ul>
+                <ul id="showphone" class="showphone">
+                    <li>1. Chronic impulsiveness to check your device</li>
+                    <li>2. Excessive use, urgency, need to be connected</li>
+                    <li>3. Conscious use of phones in dangerous situations or in prohibited contexts (e.g while driving)</li>
+                    <li>4. Eye Strain</li>
+                    <li>5. Neck Pain</li>
+                    <li>6. Escapist Behavior</li>
+                    <li>7. Relationship Stress</li>
+                    <li>8. Stress and Restlessness</li>
+                    <li>9. Inability to Focus / Complete a Task</li>
+                </ul>
+            </div>
+        </div>
         <div class="aboutUs">
             <h1>About Us</h1><br>
-            Ovid helps researchers, librarians, clinicians, and other healthcare professionals find important medical information so that they can make critical decisions to improve patient care, enhance ongoing research, and fuel new discoveries. We offer a market-leading medical research platform of premium aggregated content and productivity tools that make it easy to quickly search information and make informed decisions on patient care, quality, and clinical outcomes. Every day, the world's leading medical, academic, and corporate institutions, and thousands of their users rely on Ovid for the most efficient, trusted solution that transforms research into results to help improve patient care.
+            Covid helps researchers, librarians, clinicians, and other healthcare professionals find important medical information so that they can make critical decisions to improve patient care, enhance ongoing research, and fuel new discoveries. We offer a market-leading medical research platform of premium aggregated content and productivity tools that make it easy to quickly search information and make informed decisions on patient care, quality, and clinical outcomes. Every day, the world's leading medical, academic, and corporate institutions, and thousands of their users rely on Ovid for the most efficient, trusted solution that transforms research into results to help improve patient care.
             We partner with more than 150 information producers to provide a selection of current, premium resources aggregated on Ovid <br><br> — our flagship research platform. We maintain a commitment to content currency and support archival resources critical to understanding the historical perspective on medical diagnoses and treatment.
         </div>
     </div>
@@ -52,8 +111,6 @@
     <div class="mid-container" id="tests">
         <div class="testheading">
             <h1 class="heading">Take Your Mental Health Test Today!!</h1>
-            <p class="disclaimer" id="hide">DISCLAIMER</p>                
-            <div class="bubble target hide">We tried our best to include those questions which are effective.</div>
         </div>
     </div>
     <div class="extra"></div>
@@ -71,7 +128,7 @@
             <img src="images/anger.png" alt="depression-png" width="250px">
         </a>
         <a class="card" href="#">
-            <p>Drug Addiction test</p>
+            <p>Phone Addiction test</p>
             <img src="images/phone_addiction.png" alt="depression-png" width="250px">
         </a>
         <!-- <div class="card">
@@ -190,8 +247,8 @@
         </section>
       </footer> -->
     <footer>
-        <div>© 2021, ISTENITH</div>
-        <div>Wanna talk to ISTE? Or be a part of it? You can contact any of our members personally or 📧 us at teamiste@gmail.com!</div>
+        <div>© 2021, HUGS_FOR_BUGS</div>
+        <div>Wanna talk to B-WELL? Or be a part of it? You can contact any of our members personally or 📧 us at <strong>hugs_for_bugs@gmail.com</strong> !</div>
         <div>🤖Chatbot:Coming Soon!!</div>
     </footer>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
