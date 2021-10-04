@@ -251,18 +251,20 @@
     }
   } */
 
-*{
-  margin: 0%;
-  padding: 0%;
-}
-
-footer{
-  background-color: #ff7171;
-  padding: 1% 8%;
-  color: white;
-  font-size: large;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  font-family: 'Roboto', sans-serif;
-}
+  *{
+    margin: 0%;
+    padding: 0%;
+  }
+  .foot{
+    color: rgb(191, 214, 59);
+  }
+  footer{
+    background-color: #244b49;
+    padding: 2% 8%;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    font-family: sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+  }
