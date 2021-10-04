@@ -30,9 +30,13 @@ var final_score = 0;
 $("#next-button").click(function(){
     currentQuestionIndex++;
     $("#question").text(DepressionTest[currentQuestionIndex]);
+    $("#question-count").text(`${currentQuestionIndex+1}/${DepressionTest.length}`);
+
     if(currentQuestionIndex==length-1){
         $("#next-button").addClass('hide');
         $("#result-button").removeClass('hide');
+        $("#question-count").addClass('hide');
+
     }
     $(".btn").click(function(){
         score = parseInt($(this).attr('name'));
