@@ -81,3 +81,9 @@
     border-radius: 50px 0 50px 0;
 }
 
+.question-count{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    color: #eb3737;
+}
